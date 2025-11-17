@@ -1,5 +1,8 @@
 ***Metadata***
 
+**Data Set Link** \
+https://universe.roboflow.com/uni-o612z/facial-emotion-recognition
+
 **Data Summary** \
 The dataset used in this project was obtained from the Roboflow Universe platform and published by the user uni-o612z. It contains labeled facial images categorized by emotional expression, including happy, sad, angry, surprised . Each sample consists of an image paired with an emotion label, and all images have been preprocessed into a consistent resolution suitable for computer vision tasks. The dataset is accessible online via Roboflow’s hosted version or through their API.
 

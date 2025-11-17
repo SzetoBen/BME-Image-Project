@@ -32,9 +32,9 @@ DS 4002 – 001 – 1pm – November 2025
 BME-Time-Series-Project
 
 ├── data
-│   ├──
 │   ├── METADATA.md
-│   ├── 
+│   ├── Figure_1.png
+│   ├── Figure_2.png
 ├── LICENSE
 ├── output
 │   ├── 
