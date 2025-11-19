@@ -12,17 +12,15 @@ DS 4002 – 001 – 1pm – November 2025
 - **LICENSE.md** – MIT License for reuse of this repository  
 - **SCRIPTS/** – Source code for preprocessing and sentiment analysis  
 - **DATA/** – Cleaned datasets, plus Data metadata 
-- **OUTPUT/** – Figures, tables, and other analysis results  
+- **OUTPUTS/** – Figures, tables, and other analysis results  
 
 ---
 
 ## Software and Platform  
 - **Programming Language:** Python 3.10+  
 - **Core Libraries:**  
-  - `pandas` – data manipulation  
-  - `numpy` – numerical processing  
-  - `matplotlib`, `seaborn` – visualizations  
-  - `scikit-learn` (sklearn) – building and evaulating machine learning models
+  - `ultralytics` – used YOLOv11 model for training  
+  - `roboflow' - used to download dataset
 - **Platform:** Code developed and tested on Windows and MacOS  
 
 ---
@@ -31,17 +29,16 @@ DS 4002 – 001 – 1pm – November 2025
  ```
 BME-Time-Series-Project
 
-├── data
+├── DATA
 │   ├── METADATA.md
 │   ├── Figure_1.png
 │   ├── Figure_2.png
 ├── LICENSE
-├── output
-│   ├── 
+├── OUTPUTS
+│   ├── output graphs and tables
 ├── README.md
-├── requirements.txt
-└── scripts
-    ├──
+└── SCRIPTS
+    ├── ImageProjectTrain.ipynb
 ```
 
 ---
@@ -50,11 +47,12 @@ BME-Time-Series-Project
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/SzetoBen/BME-Image-Project
-2. **Install dependencies**\
-    pip install -r requirements.txt
-3. **Prepare the data**\
-4. **Training models**
-    1) **
-5. **Analyze Results**
-   
+2. **Set up Roboflow**
+    1) Make an account with Roboflow to be able to download data from it
+    2) Create API key for getting data
+3. **Train model**
+    1) Open ImageProjectTrain.ipynb and replace API key in the first cell
+    2) Execute all cells in the file from top to bottom
+4. **Analyze Results**
+    1) Metrics, visualizations, and saved model outputs are saved into a subfolder
 
