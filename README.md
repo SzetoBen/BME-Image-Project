@@ -33,11 +33,17 @@ BME-Time-Series-Project
 │   ├── METADATA.md
 │   ├── Figure_1.png
 │   ├── Figure_2.png
+│   ├── dataset.md
 ├── LICENSE
 ├── OUTPUTS
-│   ├── output graphs and tables
+│   ├── Graphs_1.png
+│   ├── model performance graphs.png
+│   ├── precision and recall.png
+│   ├── test_set.png
+│   ├── validation_set.png
 ├── README.md
-└── SCRIPTS
+├── requirements.txt
+└── scripts
     ├── ImageProjectTrain.ipynb
 ```
 
