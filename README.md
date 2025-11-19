@@ -20,7 +20,7 @@ DS 4002 – 001 – 1pm – November 2025
 - **Programming Language:** Python 3.10+  
 - **Core Libraries:**  
   - `ultralytics` – used YOLOv11 model for training  
-  - `roboflow' - used to download dataset
+  - `roboflow` - used to download dataset
 - **Platform:** Code developed and tested on Windows and MacOS  
 
 ---
